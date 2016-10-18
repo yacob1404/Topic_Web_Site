@@ -98,11 +98,11 @@ footer {
 
 #main {
   background-color: rgb(32,32,32);
-  margin: 5em 1em 0 12em;
+  margin: 1em 1em 0em 12em;
   border-radius: 5px 5px;
   border-style: outset;
   border-color: red;
-  padding-left: 1em;
+  padding-left: 1.5em;
 }
 
 
@@ -185,4 +185,20 @@ label.sliderLabel {
   margin: 10px 0px;
   text-align: center;
   width: 0px;
+}
+
+.rotcMedia {
+  display: block;
+  clear: right;
+  float: right;
+  padding: 2em 1.5em 1.5em 1.5em;
+}
+
+.rotcPicture {
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.rotcA {
+  width: 40em;
 }

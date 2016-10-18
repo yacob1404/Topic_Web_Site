@@ -2,8 +2,8 @@ section {
   background-color: gray;
 }
 
-* {
-  border: 1px solid green;
+form {
+  padding: 1em;
 }
 
 label.sliderLabel {
