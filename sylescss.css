@@ -1,0 +1,120 @@
+﻿/*Global styles*/
+a {
+    text-decoration: none;
+    color:rgba(255,255,255,0.9);
+}
+
+body{
+    background-color:#000080;
+}
+
+/*Paragraph styles*/
+p {
+    color:rgba(255,255,255,0.9);
+}
+
+/*All header styles are located below*/
+
+/*H1 header styles*/
+h1 {
+    font-family: Verdana,'Times New Roman', Times, serif;
+    background-color:darkgreen;
+    color:rgba(255,255,255,0.9);
+}
+
+/*H2 header styles*/
+h2 {
+    background-color:darkgreen;
+    color:rgba(255,255,255,0.9);
+}
+
+/*H3 header styles*/
+h3 {
+    color:rgba(255,255,255,0.9);
+}
+
+/*List Styles are all located below*/
+
+/*Ordered list styles*/
+ol {
+    color:rgba(255,255,255,0.9);
+}
+
+/*Unordered list styles*/
+ul {
+    color: rgba(255,255,255,0.9);
+    list-style-type: none;
+}
+
+/*Definition list styles*/
+dl{
+    color: rgba(255,255,255,0.9);
+}
+
+/*Navigation styles*/
+nav {
+    float: left;
+    background-color: darkgreen;
+    padding-right: 0.5em;
+    padding-top:1em;
+}
+nav ul {
+    list-style-type: none;
+    line-height: 3em;
+}
+nav li{
+    display: block;
+}
+
+#resume {
+    padding-bottom: 93.5em;
+}
+
+#programpath {
+    padding-bottom: 47em;
+}
+
+#rotc {
+    padding-bottom: 27em;
+}
+
+#experience {
+    padding-bottom: 16.4em;
+}
+
+#faq {
+    padding-bottom: 49em;
+}
+
+/*Thematic break styles*/
+hr {
+    border-style: outset;
+}
+
+/*Deals with block quotes*/
+blockquote {
+    color:rgba(255,255,255,0.9);
+}
+
+/*Deals with all footer elements*/
+footer {
+    color:rgba(255,255,255,0.9);
+    background-color: darkgreen;
+}
+
+/*Pseudo elements*/
+p::first-letter {
+    font-size: xx-large;
+}
+::-moz-selection {
+    color: rgb(255,0,0);
+    background: yellow;
+}
+::selection {
+    color: rgb(255,0,0);
+    background: yellow;
+}
+a:hover {
+    text-decoration:underline;
+    color:rgba(255,216,0,0.9);
+}
