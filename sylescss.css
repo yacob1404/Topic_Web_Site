@@ -1,0 +1,204 @@
+﻿/*Global styles*/
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    color:rgba(255,255,255,0.9);
+}
+
+body{
+    background-image: url(eletronics1.jpg);
+    width: 98%;
+    padding-bottom: 5em;
+    border-radius: 5px;
+    padding-top: 1em;
+}
+
+/*Paragraph styles*/
+p {
+    color:rgba(255,255,255,0.9);
+}
+
+/*All header styles are located below*/
+
+/*H1 header styles*/
+h1 {
+    font-family: Verdana,'Times New Roman', Times, serif;
+    color:rgba(255,255,255,0.9);
+}
+
+/*H2 header styles*/
+h2 {
+    color:rgba(255,255,255,0.9);
+}
+
+/*H3 header styles*/
+h3 {
+    color:rgba(255,255,255,0.9);
+}
+
+/*List Styles are all located below*/
+
+/*Ordered list styles*/
+ol {
+    color:rgba(255,255,255,0.9);
+}
+
+/*Unordered list styles*/
+ul {
+    color: rgba(255,255,255,0.9);
+    list-style-type: none;
+}
+
+/*Definition list styles*/
+dl{
+    color: rgba(255,255,255,0.9);
+}
+
+/*Navigation styles*/
+nav {
+    display: block;
+    float: left;
+    margin-left: 1.5em;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 1em;
+    background-color: rgb(32,32,32);
+    height: auto;
+
+    border-color: red;
+    border-style: inset;
+    border-radius: 5px;
+}
+nav ul {
+    list-style-type: none;
+    line-height: 3em;
+}
+nav li{
+    display: block;
+}
+
+/*Thematic break styles*/
+hr {
+    border-style: outset;
+}
+
+/*Deals with block quotes*/
+blockquote {
+    color:rgba(255,255,255,0.9);
+}
+
+/*Deals with all footer elements*/
+footer {
+    color:rgba(255,255,255,0.9);
+}
+
+#main {
+  background-color: rgb(32,32,32);
+  margin: 1em 1em 0em 12em;
+  border-radius: 5px 5px;
+  border-style: outset;
+  border-color: red;
+  padding-left: 1.5em;
+}
+
+
+
+/*Indivual page styles and elements*/
+/*Resume*/
+#LoR {
+  float: top right;
+}
+
+#RHeader {
+  text-align: center;
+}
+
+
+
+/*Pseudo elements*/
+p::first-letter {
+    font-size: xx-large;
+}
+::-moz-selection {
+    color: rgb(255,0,0);
+    background: yellow;
+}
+::selection {
+    color: red;
+}
+a:hover {
+    text-decoration:underline;
+    color:red;
+}
+
+/*Survey Styles*/
+form {
+  background-color: rgb(32,32,32);
+  color: white;
+  width: 65%;
+  float: left;
+  height: 30em;
+  border: 4px red inset;
+}
+
+label {
+  clear: left;
+  display: block;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 4% 7px 5px;
+  width: 40%;
+  display: inline;
+}
+
+input {
+  display:inline;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 0px;
+  width: 50%;
+}
+
+textarea {
+  display: inline;
+  font-size: 0.9em;
+  float: left;
+  height: 150px;
+  margin: 10px 0px;
+  width: 50%;
+}
+
+select {
+  display: inline;
+  float: left;
+  font-size: 0.9em;
+  margin: 7px 0px;
+}
+
+label.sliderLabel {
+  clear: none;
+  font-size: 0.7em;
+  margin: 10px 0px;
+  text-align: center;
+  width: 0px;
+}
+
+.rotcMedia {
+  display: block;
+  clear: right;
+  float: right;
+  padding: 2em 1.5em 1.5em 1.5em;
+}
+
+.rotcPicture {
+  padding-top: 1em;
+  padding-right: 1em;
+}
+
+.rotcA {
+  width: 40em;
+}

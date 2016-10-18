@@ -1,0 +1,15 @@
+section {
+  background-color: gray;
+}
+
+form {
+  padding: 1em;
+}
+
+label.sliderLabel {
+  clear: none;
+  font-size: 0.7em;
+  margin: 10px 0px;
+  text-align: center;
+  width: 0px;
+}
